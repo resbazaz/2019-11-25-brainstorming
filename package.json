@@ -1,0 +1,14 @@
+{
+  "name": "2019-11-25-brainstorming",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "dependencies": {
+    "d3": "^5.14.2",
+    "d3-dag": "^0.3.1",
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}

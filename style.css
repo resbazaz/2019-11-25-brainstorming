@@ -1,0 +1,14 @@
+.nodeLayer rect,
+.linkLayer path {
+  fill: none;
+  stroke-width: 1px;
+  stroke: #ccc;
+}
+.nodeLayer text {
+  font: 10px sans-serif;
+}
+.linkLayer path {
+  stroke-width: 1px;
+  stroke: #ccc;
+  fill: none;
+}

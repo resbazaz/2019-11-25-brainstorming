@@ -1,0 +1,25 @@
+package-lock.json
+
+# we want to include specific files inside node_modules and ignore the rest...
+
+# unignore node_modules dir itself
+!node_modules/
+node_modules/*
+
+!node_modules/d3/
+node_modules/d3/*
+!node_modules/d3/dist/
+node_modules/d3/dist/*
+!node_modules/d3/dist/d3.min.js
+
+!node_modules/d3-dag/
+node_modules/d3-dag/*
+!node_modules/d3-dag/dist/
+node_modules/d3-dag/dist/*
+!node_modules/d3-dag/dist/d3-dag.min.js
+
+!node_modules/js-yaml/
+node_modules/js-yaml/*
+!node_modules/js-yaml/dist/
+node_modules/js-yaml/dist/*
+!node_modules/js-yaml/dist/js-yaml.min.js
