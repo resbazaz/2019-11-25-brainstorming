@@ -57,7 +57,7 @@ window.onload = async () => {
   // SVG setup, mappers from (vertical) DAG layout space to (horizonal) screen space
   const margins = { left: 100, top: 20, right: 300, bottom: 20 };
   const bounds = {
-    width: 1400,
+    width: 1600,
     height: 1400
   };
   svg
