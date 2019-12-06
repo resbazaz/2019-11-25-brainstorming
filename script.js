@@ -58,7 +58,7 @@ window.onload = async () => {
   const margins = { left: 100, top: 20, right: 300, bottom: 20 };
   const bounds = {
     width: 1600,
-    height: 1400
+    height: 1600
   };
   svg
     .attr('width', bounds.width)
